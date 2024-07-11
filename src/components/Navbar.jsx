@@ -1,6 +1,7 @@
 
 import "./navbarStyle.scss";
 import { ReactComponent as Logo } from '../assets/alliancePost.svg';
+import { ReactComponent as Bar } from '../assets/bar.svg'
 const Navbar = () => {
     return (
         <div className="navbar">
@@ -14,7 +15,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar__menu__bar-icon">
                     <button>
-                        <i className="fa-light fa-bars"></i>
+                        < Bar />
                     </button>
 
                 </div>

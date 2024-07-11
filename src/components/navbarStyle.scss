@@ -34,10 +34,8 @@ button {
                 font-family: "Khand";
                 cursor: pointer;
             }
- 
-          
-
         }
+
         &__bar-icon {
             display: none;
             color: aliceblue;
@@ -76,18 +74,15 @@ button {
             &__bar-icon {
                 display:inline-block;
                 button {
-                    color: rgb(255, 255, 255);
-                    margin: 40px;
-                    font-size: 30px;
+                    width: 30px;
+                    margin: 10px 50px 0px 50px;
+                
                     cursor: pointer;
+                    svg {
+                        fill:rgb(255, 255, 255);
+                    }
                 }
-    
             }
-    
-    
         }
-    
     }
-    
-
 }
