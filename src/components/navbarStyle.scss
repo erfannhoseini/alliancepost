@@ -1,0 +1,93 @@
+
+button {
+    border: none;
+    background-color: transparent;
+}
+.navbar {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    justify-content: center;
+
+
+    &__logo {
+        width: 10rem;
+        padding: 20px;
+        margin: 10px 10% 10px 20px;
+
+    }
+  
+    &__menu {
+        display: flex;
+ 
+     
+        &__wide{
+            display: flex;
+            margin: 20px;
+            button{
+                padding: 12px;
+                color: white;
+                font-size: 25px;
+                font-family: "Khand";
+                cursor: pointer;
+            }
+ 
+          
+
+        }
+        &__bar-icon {
+            display: none;
+            color: aliceblue;
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+
+    .navbar {
+
+        display: flex;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        background-color: transparent;
+        justify-content: center;
+    
+    
+        &__logo {
+            width: 10rem;
+            padding: 20px;
+            margin: 10px 10% 10px 20px;
+    
+        }
+    
+        &__menu {
+            
+            &__wide{
+                display: none;
+            }
+            &__bar-icon {
+                display:inline-block;
+                button {
+                    color: rgb(255, 255, 255);
+                    margin: 40px;
+                    font-size: 30px;
+                    cursor: pointer;
+                }
+    
+            }
+    
+    
+        }
+    
+    }
+    
+
+}
